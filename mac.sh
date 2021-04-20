@@ -14,6 +14,12 @@ brew install bash
 brew install zsh
 
 # Install...
+    # Oh-My-ZSH!
+    . _shared-install-zsh.sh
+
+    # nvm and Node
+    . _shared-install-nvm.sh
+
     # System essentials
     brew install git
     brew install youtube-dl
@@ -69,12 +75,6 @@ brew install zsh
 
     brew tap caskroom/fonts
     brew install --cask font-hack
-
-    # Oh-My-ZSH!
-    . _shared-install-zsh.sh
-
-    # nvm and Node
-    . _shared-install-nvm.sh
 
 # Set things up...
     # Show hidden files
