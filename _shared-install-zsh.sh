@@ -6,7 +6,6 @@
 
     # zsh themes
     mkdir -p ~/.oh-my-zsh/custom/themes
-    git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
     git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
 
     # zsh plugins
