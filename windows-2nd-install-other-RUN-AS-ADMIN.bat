@@ -57,7 +57,8 @@ choco install vnc-viewer -y
 choco install wincdemu -y
 choco install windirstat -y
 choco install windowgrid -y
-choco install wiztree --version 3.19 -y
+choco install wiztree --version 3.41 -y
+choco pin wiztree
 REM #
 REM Do not install since we're installing it in WSL, remove comment otherwise
 REM choco install youtube-dl -y
