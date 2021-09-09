@@ -85,6 +85,7 @@ choco install sublimetext3 -y
 choco install vscode -y
 choco install wslgit -y
 choco install wsltty -y
+choco install microsoft-windows-terminal -y
 
 choco install font-nerd-dejavusansmono -y
 
