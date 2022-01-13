@@ -40,7 +40,7 @@ brew install zsh
 
     # Dev
     brew install --cask beyond-compare
-    brew install --cask composer
+    brew install composer
     brew install --cask cyberduck
     brew install --cask dbeaver-community
     brew install --cask docker
@@ -58,17 +58,12 @@ brew install zsh
     brew install --cask flux
     brew install --cask hyperswitch
     brew install --cask itsycal
-    brew install --cask lightshot
+#    brew install --cask lightshot
     brew install --cask spectacle
     brew install --cask the-unarchiver
     brew install --cask veracrypt
     brew install --cask vnc-server
     brew install --cask vnc-viewer
-
-    # Mp3Tag
-    brew install --cask xquartz
-    brew install --cask wine-stable
-    brew install --cask mp3tag
 
     # Office
     brew install --cask libreoffice
