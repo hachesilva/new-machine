@@ -72,7 +72,7 @@ brew install zsh
     # Office
     brew install --cask libreoffice
 
-    brew tap caskroom/fonts
+    brew tap homebrew/cask-fonts
     brew install --cask font-hack
 
 # Set things up...
