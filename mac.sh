@@ -1,5 +1,7 @@
 #!/bin/bash
 
+currentuser=$USER
+
 # Import utils
 . utils/colors.sh
 
@@ -7,7 +9,9 @@
 xcode-select --install
 
 # Install Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$currentuser/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Update bash, install zsh
 brew install bash
