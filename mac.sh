@@ -56,11 +56,12 @@ brew install zsh
 
     # Utils
     brew install --cask alfred
+    brew install alt-tab
     brew install --cask bartender
     brew install --cask betterzip
     brew install --cask copyq
     brew install --cask flux
-    brew install --cask hyperswitch
+#    brew install --cask hyperswitch # Replaced by alttab
     brew install --cask itsycal
 #    brew install --cask lightshot
     brew install --cask spectacle
