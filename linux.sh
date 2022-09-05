@@ -106,5 +106,8 @@
     sudo apt-get install folder-color-nemo
     sudo apt-get install sni-qt sni-qt:i386 hardcode-tray
     sudo apt-get install arc-theme
+    sudo apt install nemo-preview
+    sudo apt install nemo-image-converter
+    sudo apt install nemo-media-columns
     nemo -q
     sudo hardcode-tray
