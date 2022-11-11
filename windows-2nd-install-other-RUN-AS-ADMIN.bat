@@ -36,6 +36,7 @@ choco install copyq -y
 choco install displayfusion -y
 choco install displaylink -y
 choco install dropit -y
+choco install file-converter -y
 choco install listary -y
 choco install linkshellextension -y
 choco install notepadreplacer -y
