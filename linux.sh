@@ -18,9 +18,9 @@
     sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
     sudo apt-get update
     sudo apt-get install simplescreenrecorder -y
-    
+
     sudo apt-get install fonts-hack-ttf -y
-    
+
     # Dev
     sudo apt-get install filezilla -y
     sudo apt-get install sublime-text -y
