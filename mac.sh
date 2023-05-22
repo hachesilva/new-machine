@@ -69,6 +69,8 @@ brew install zsh
     brew install --cask veracrypt
     brew install --cask vnc-server
     brew install --cask vnc-viewer
+    brew install --cask raycast
+    brew install --cask cleanshot
 
     # Office
     brew install --cask libreoffice
