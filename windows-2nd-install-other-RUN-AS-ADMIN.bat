@@ -39,6 +39,7 @@ choco install dropit -y
 choco install file-converter -y
 choco install listary -y
 choco install linkshellextension -y
+choco install nirlauncher -y
 choco install notepadreplacer -y
 choco install path-copy-copy -y
 choco install powertoys -y
