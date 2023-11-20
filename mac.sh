@@ -77,6 +77,8 @@ brew install zsh
 
     brew tap homebrew/cask-fonts
     brew install --cask font-hack
+    brew install --cask font-meslo-lg-nerd-font
+
 
 # Set things up...
     # Show hidden files
