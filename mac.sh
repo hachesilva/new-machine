@@ -14,8 +14,8 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$currentuser/.zprofil
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Update bash, install zsh
-brew install bash
-brew install zsh
+brew install -q bash
+brew install -q zsh
 
 # Install...
     # Oh-My-ZSH!
@@ -25,59 +25,59 @@ brew install zsh
     . _shared-install-nvm.sh
 
     # System essentials
-    brew install git
-    brew install youtube-dl
+    brew install -q git
+    brew install -q youtube-dl
 
     # Internet
-    brew install --cask dropbox
-    brew install --cask firefox
-    brew install --cask google-chrome
-    brew install --cask jdownloader
-    brew install --cask qbittorrent
-    brew install --cask skype
-    brew install --cask teamviewer
+    brew install -q --cask dropbox
+    brew install -q --cask firefox
+    brew install -q --cask google-chrome
+    brew install -q --cask jdownloader
+    brew install -q --cask qbittorrent
+    brew install -q --cask skype
+    brew install -q --cask teamviewer
 
     # Media
-    brew install --cask vlc
-    brew install --cask vox
-    brew install --cask xnviewmp
+    brew install -q --cask vlc
+    brew install -q --cask vox
+    brew install -q --cask xnviewmp
 
     # Dev
-    brew install --cask beyond-compare
-    brew install composer
-    brew install --cask cyberduck
-    brew install --cask dbeaver-community
-    brew install --cask docker
-    brew install --cask iterm2
-    brew install --cask postman
-    brew install --cask sublime-text
-    brew install --cask virtualbox
-    brew install --cask visual-studio-code
+    brew install -q --cask beyond-compare
+    brew install -q composer
+    brew install -q --cask cyberduck
+    brew install -q --cask dbeaver-community
+    brew install -q --cask docker
+    brew install -q --cask iterm2
+    brew install -q --cask postman
+    brew install -q --cask sublime-text
+    brew install -q --cask virtualbox
+    brew install -q --cask visual-studio-code
 
     # Utils
-    brew install --cask alfred
-    brew install alt-tab
-    brew install --cask bartender
-    brew install --cask betterzip
-    brew install --cask copyq
-    brew install --cask flux
-#    brew install --cask hyperswitch # Replaced by alttab
-    brew install --cask itsycal
-#    brew install --cask lightshot
-    brew install --cask spectacle
-    brew install --cask the-unarchiver
-    brew install --cask veracrypt
-    brew install --cask vnc-server
-    brew install --cask vnc-viewer
-    brew install --cask raycast
-    brew install --cask cleanshot
+    brew install -q --cask alfred
+    brew install -q alt-tab
+    brew install -q --cask bartender
+    brew install -q --cask betterzip
+    brew install -q --cask copyq
+    brew install -q --cask flux
+#    brew install -q --cask hyperswitch # Replaced by alttab
+    brew install -q --cask itsycal
+#    brew install -q --cask lightshot
+    brew install -q --cask spectacle
+    brew install -q --cask the-unarchiver
+    brew install -q --cask veracrypt
+    brew install -q --cask vnc-server
+    brew install -q --cask vnc-viewer
+    brew install -q --cask raycast
+    brew install -q --cask cleanshot
 
     # Office
-    brew install --cask libreoffice
+    brew install -q --cask libreoffice
 
     brew tap homebrew/cask-fonts
-    brew install --cask font-hack
-    brew install --cask font-meslo-lg-nerd-font
+    brew install -q --cask font-hack
+    brew install -q --cask font-meslo-lg-nerd-font
 
 
 # Set things up...
