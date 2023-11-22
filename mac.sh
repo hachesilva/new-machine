@@ -56,7 +56,7 @@ brew install -q zsh
 
     # Utils
     brew install -q --cask alfred
-    brew install -q alt-tab
+    brew install -q --cask alt-tab
     brew install -q --cask bartender
     brew install -q --cask betterzip
     brew install -q --cask copyq
