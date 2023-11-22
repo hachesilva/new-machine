@@ -59,18 +59,18 @@ brew install -q zsh
     brew install -q --cask alt-tab
     brew install -q --cask bartender
     brew install -q --cask betterzip
+    brew install -q --cask cleanshot
     brew install -q --cask copyq
     brew install -q --cask flux
 #    brew install -q --cask hyperswitch # Replaced by alttab
     brew install -q --cask itsycal
 #    brew install -q --cask lightshot
+    brew install -q --cask raycast
     brew install -q --cask spectacle
     brew install -q --cask the-unarchiver
     brew install -q --cask veracrypt
     brew install -q --cask vnc-server
     brew install -q --cask vnc-viewer
-    brew install -q --cask raycast
-    brew install -q --cask cleanshot
 
     # Office
     brew install -q --cask libreoffice
