@@ -17,10 +17,12 @@ REM Media
 choco install aimp -y
 choco install calibre -y
 REM choco install classic-shell -y
+choco install handbrake -y
 choco install honeyview -y
 choco install imageglass -y
 choco install irfanview -y
 choco install mp3tag -y
+choco install mpc-be -y
 choco install vlc -y
 choco install xnviewmp -y
 choco install captura -y
@@ -36,12 +38,16 @@ choco install copyq -y
 choco install displayfusion -y
 choco install displaylink -y
 choco install dropit -y
+choco install espanso -y
 choco install file-converter -y
-choco install listary -y
+choco install flameshot -y
+choco install freefilesync -y
+choco install listary --version 5.00.2843 -y
 choco install linkshellextension -y
 choco install nirlauncher -y
 choco install notepadreplacer -y
 choco install path-copy-copy -y
+choco install peazip -y
 choco install powertoys -y
 choco install picpick -y
 choco install procexp -y
@@ -59,8 +65,8 @@ choco install vnc-viewer -y
 choco install wincdemu -y
 choco install windirstat -y
 choco install windowgrid -y
-choco install wiztree --version 3.41 -y
-choco pin wiztree
+choco install wiztree -y
+
 REM #
 REM Do not install since we're installing it in WSL, remove comment otherwise
 REM choco install youtube-dl -y
