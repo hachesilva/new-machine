@@ -47,9 +47,11 @@ brew install -q zsh
     brew install -q composer
     brew install -q --cask cyberduck
     brew install -q --cask dbeaver-community
+    brew install -q --cask devtoys
     brew install -q --cask docker
     brew install -q --cask iterm2
     brew install -q --cask postman
+    brew install -q --cask responsively
     brew install -q --cask sublime-text
     brew install -q --cask virtualbox
     brew install -q --cask visual-studio-code
@@ -61,6 +63,7 @@ brew install -q zsh
     brew install -q --cask betterzip
     brew install -q --cask cleanshot
     brew install -q --cask copyq
+    brew install -q --cask espanso
     brew install -q --cask flux
 #    brew install -q --cask hyperswitch # Replaced by alttab
     brew install -q --cask itsycal
