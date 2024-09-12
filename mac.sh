@@ -26,7 +26,7 @@ brew install -q zsh
 
     # System essentials
     brew install -q git
-    brew install -q youtube-dl
+    brew install -q yt-dlp
 
     # Internet
     brew install -q --cask dropbox
@@ -91,3 +91,6 @@ brew install -q zsh
     defaults write com.apple.finder ShowPathbar -bool true
     # Show status bar
     defaults write com.apple.finder ShowStatusBar -bool true
+
+# Install apps from app store
+# 68053424 # Gapplin svg viewer
