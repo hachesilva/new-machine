@@ -68,6 +68,7 @@ brew install -q zsh
 #    brew install -q --cask hyperswitch # Replaced by alttab
     brew install -q --cask itsycal
 #    brew install -q --cask lightshot
+    brew install -q --cask pika
     brew install -q --cask raycast
     brew install -q --cask spaceid
     brew install -q --cask spectacle
