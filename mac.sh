@@ -27,6 +27,7 @@ brew install -q zsh
     # System essentials
     brew install -q git
     brew install -q yt-dlp
+    brew install -q mas
 
     # Internet
     brew install -q --cask dropbox
@@ -93,5 +94,9 @@ brew install -q zsh
     # Show status bar
     defaults write com.apple.finder ShowStatusBar -bool true
 
-# Install apps from app store
-# 68053424 # Gapplin svg viewer
+# Install apps from the app store
+mas install 1355679052 # Dropover
+mas install 68053424 # Gapplin svg viewer
+mas install 768053424 # Gapplin svg viewer
+mas install 1503970375 # Invoice Ninja
+mas install 694633015 # VPN Unlimited
