@@ -65,6 +65,7 @@ brew install -q zsh
     brew install -q --cask cleanshot
     brew install -q --cask copyq
     brew install -q --cask espanso
+    brew install -q --cask maccy
     brew install -q --cask flux
 #    brew install -q --cask hyperswitch # Replaced by alttab
     brew install -q --cask itsycal
