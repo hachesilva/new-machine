@@ -61,9 +61,9 @@ brew install -q zsh
     brew install -q --cask betterzip
     brew install -q --cask copyq
     brew install -q --cask espanso
-    brew install -q --cask maccy
     brew install -q --cask flux
     brew install -q --cask itsycal
+    brew install -q --cask maccy
     brew install -q --cask pika
     brew install -q --cask raycast
     brew install -q --cask spaceid
